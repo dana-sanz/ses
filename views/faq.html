@@ -1,0 +1,8 @@
+<div>
+	<p>Got a question that should be on this list? Email us at <a style='color:inherit' href='mailto:berkeleyses@gmail.com'>berkeleyses@gmail.com</a>.</p>
+	<div ng-repeat='entry in qa'>
+		<br>
+		<h4><b ng-bind-html-unsafe='entry.question'></b></h4>
+		<p><span ng-bind-html-unsafe='entry.answer'></span></p>
+	</div>
+</div>

@@ -1,0 +1,17 @@
+<div>
+	<p>Any comments or update requests, please send to <a style='color:inherit' href='mailto:berkeleyses@gmail.com'>berkeleyses@gmail.com</a>.<p>
+	<h3>Current Leadership</h3>
+	<div ng-repeat='officer in officers' style="margin-bottom:40px">
+		<div>
+			<a href='{{officer.img}}'><img style='float:left; padding-right:10px' width='70px' src='{{officer.img}}'></img></a>
+		</div>
+		<div style='margin-left:80px'>
+			<h4><span ng-bind='officer.position'></span>: <span ng-bind='officer.name'></span></h4>
+			<p><em ng-bind='officer.description'></em></p>
+			<p ng-bind='officer.bio'></p>
+		</div>
+		<br>
+	</div>
+	<h3>How do I get more involved?</h3>
+	<p>Email <a style='color:inherit' href='mailto:berkeleyses@gmail.com'>berkeleyses@gmail.com</a> or <a target="_blank" href='https://calmail.berkeley.edu/manage/list/listinfo/ses_members@lists.berkeley.edu'>click here</a> to hop on our mailing list.
+</div>
