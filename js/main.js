@@ -164,27 +164,5 @@ function courseguidectrl($scope) {};
 //--------------------------------------------------------------
 //FAQ page controller
 function faqctrl($scope) {
-	$scope.qa = [
-		{
-			question: 'Where can I find the right forms?',
-			answer: '<a target="_blank" href="http://engineeringscience.berkeley.edu/forms/">Click here</a> for the most important ones.'
-		},
-		{
-			question: 'There are so many options. Which classes should I take?',
-			answer:'It depends on your curiosity. <a target="_blank" href="http://engineeringscience.berkeley.edu/people/">Faculty Advisers</a> are great resources for finding the right classes for you. <a target="_blank" href="http://ses.berkeley.edu#/Members">Other students</a> are happy to share their insight on their favorite courses.'
-		},
-		{
-			question: 'What does "Engineering Science" even mean?',
-			answer:'This is a program within UC Berkeley\'s College of Engineering. There are four interdisciplinary majors: each one trains the student in both an engineering skillset for problem-solving and a scientific mindset for theory and laboratory. Each major is flexible to fit the student\'s academic interests across departments.'
-		},
-		{
-			question: 'What do students do after graduation?',
-			answer:'About 75% of students enter graduate school, mostly in physics and engineering. The rest generally enter the workforce in various jobs in science, technology, and consulting.'
-		},
-		{
-			question: 'But...I have more questions!',
-			answer:'Please email us at <a style="color:inherit" href="mailto:berkeleyses@gmail.com">berkeleyses@gmail.com</a>!'
-		},
-	];
 };
 //--------------------------------------------------------------
