@@ -12,7 +12,7 @@ footer {
     line-height: 1.25;
 
 	.title {	
-	    font-size: 1.8em;
+	    font-size: 2em;
 	    line-height: 1.8em;
 	    max-width: 15em;
 	    margin-bottom: 0.8em;
@@ -20,11 +20,21 @@ footer {
 
 	.footer-links{
 		line-height: 1.8;
+    font-weight: 100;
+    font-size: 12px;
 	}
 
 	.footer-right{
 		float: right;
 		margin-right: 10em;
+    
+    .quick-links {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 1.8em;
+      text-transform: uppercase;
+      margin-bottom: 1em;
+    }
 	}
 
 	.footer-left a{
@@ -62,10 +72,6 @@ a {
 		.footer-right{
 			float: none;
 			margin: 0 auto 20px;
-		}
-
-		.footer-right p.footer-links{
-			line-height: 1.8;
 		}
 	}
 
