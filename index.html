@@ -19,33 +19,9 @@
 
 	<title>UC Berkeley SES</title>
 </head>
-<body class=''>
-	<div ng-controller='mainctrl'>
-		<div class='heading' style='text-align:center'>
-			&nbsp;
-			<h1 id='title'>Society of Engineering Sciences at Berkeley</h1>
-			<p><em>Engineering...Science...Why not both?</em></p>
-		</div>
-		<div style="height:50px" class='navbardiv'>
-			<div class='navbar'>
-				<button ng-class='{active : path == item}' class='btn btn-inverse' style='height:40px; font-size:15px; border-radius:0px' ng-repeat='item in items' ng-click='goto(item)' type='button' ng-bind='item'></button>
-			</div>
-		</div>
-	</div>
+<body ng-controller='mainctrl'>
+	<div ng-include="'templates/header.html'"></div>
 	<div class="view" ng-view></div>
-	<br>
-	<div ng-controller='mainctrl'>
-		<div class='footing' style='text-align:center'>
-		<b>Contact us! |</b> <b>Email:</b> <a style='color:inherit' href='mailto:berkeleyses@gmail.com'>berkeleyses@gmail.com</a> |
-		<b>Office: </b><a style='color:inherit' target="_blank" href='https://www.google.com/maps/preview/place/Bechtel+Engineering+Center,+Berkeley,+CA+94709/@37.8743327,-122.2582559,17z/data=!4m2!3m1!1s0x80857c238b14a9cb:0x7d4c501ae2c91773'>230 Bechtel Engineering Center, Berkeley, CA</a> |
-		<a style='color:inherit' href='http://www.berkeley.edu' target='_blank'>UC Berkeley</a> |
-		<a style='color:inherit' href='http://engineeringscience.berkeley.edu' target='_blank'>Engineering Science</a> |
-		<a style='color:inherit' href='http://coe.berkeley.edu' target="_blank">College of Engineering</a> |
-		<a style='color:inherit' href='http://coe.berkeley.edu/students/current-undergraduates/advising/student-affairs-advising.html' target='_blank'>Engineering Student Services</a> |
-		<a style='color:inherit' href='http://esc.berkeley.edu' target='_blank'>ESC</a>
-		</div>
-
-		<a href="http://www.ocf.berkeley.edu"><img width="98" height="39" style="border:0; display:none" alt="Hosted by the OCF" src="http://www.ocf.berkeley.edu/images/hosted-logos/ocfbadge_mini8.png"></img></a>
-	</div>
+	<div ng-include="'templates/footer.html'"></div>
 </body>
 </html>
