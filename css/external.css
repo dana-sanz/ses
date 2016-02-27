@@ -20,6 +20,7 @@ body {
 	height:30px;
 	white-space: nowrap;
 	background-color: #000;
+	height:50px;
 }
 
 .navbar .btn {
@@ -35,9 +36,10 @@ body {
 	margin-bottom:-15px;
     margin-right:0px;
     padding-bottom:10px;
+ 	text-align:center;
 }
 
-.footing {
+.foot {
 	font-family: "calibri", Helvetica, sans-serif;
 	background-color:#FFCC00;
 	border-top:1px solid black;
@@ -45,6 +47,7 @@ body {
 	bottom:0;
 	width:100%;
 	min-height:20px;
+	text-align:center;
 }
 
 .view {
