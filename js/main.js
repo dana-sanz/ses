@@ -22,7 +22,20 @@ function mainctrl ($scope, $location) {
 	$scope.goto = function(item) {
 		$location.path('/'+item);
 		$scope.path = item;
+
+		// close navbar
+		if ($('header').hasClass('open-nav')) {
+        	$('header').removeClass('open-nav');
+    	}
 	};
+	
+	$scope.mobileNav = function() {
+		if ($('header').hasClass('open-nav')) {
+        	$('header').removeClass('open-nav');
+	    } else {
+	        $('header').addClass('open-nav');
+	    }
+	}
 };
 //--------------------------------------------------------------
 //Home page controller

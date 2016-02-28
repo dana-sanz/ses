@@ -69,10 +69,13 @@ header {
   /*set opacity to 0 in beginning for pop in effect */
   opacity: 0.5;
   height: 5em;
-  /* menu bar*/ }
+  /* menu bar*/
+  /*responsive*/ }
+  header .row {
+    position: relative;
+    padding: 0 3em; }
   header nav {
-    float: right;
-    margin-right: 3.5em; }
+    float: right; }
     header nav ul {
       list-style: none;
       overflow: hidden;
@@ -86,6 +89,21 @@ header {
       header nav ul .active {
         color: #888888;
         text-transform: uppercase; }
+  @media only screen and (max-width: 766px) {
+    header {
+      padding-top: 25px; }
+      header .mobile-toggle {
+        display: block; }
+      header nav {
+        width: 100%; }
+        header nav ul {
+          margin-top: 2em;
+          text-align: center;
+          width: 100%; }
+          header nav ul li {
+            width: 100%;
+            padding: 7px 0;
+            margin: 0; } }
 
 /* scroll effect */
 .sticky {
@@ -93,6 +111,35 @@ header {
   opacity: 1;
   border-bottom: 1px solid gainsboro; }
   .sticky nav ul li {
+    color: black; }
+
+/* mobile */
+.mobile-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  right: 22px;
+  width: 30px;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in; }
+  .mobile-toggle span {
+    width: 30px;
+    height: 4px;
+    margin-bottom: 6px;
+    border-radius: 1000px;
+    background: #8f8f8f;
+    display: block; }
+
+/* only for mobile */
+.open-nav {
+  height: 700px;
+  background-color: white; }
+  .open-nav .mobile-toggle {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg); }
+  .open-nav nav ul li {
     color: black; }
 
 .view {

@@ -2,26 +2,8 @@
 $(window).scroll(function() {
     if ($(window).scrollTop() > 300) {
         $('header').addClass('sticky');
-        console.log('asdfasd')
     } else {
         $('header').removeClass('sticky');
-    }
-});
-
-
-// Mobile Navigation
-$('.mobile-toggle').click(function() {
-    if ($('header').hasClass('open-nav')) {
-        $('header').removeClass('open-nav');
-    } else {
-        $('header').addClass('open-nav');
-    }
-});
-
-$('.main_h li a').click(function() {
-    if ($('header').hasClass('open-nav')) {
-        $('.navigation').removeClass('open-nav');
-        $('.header').removeClass('open-nav');
     }
 });
 
