@@ -7,21 +7,53 @@
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 	
 	<!--libraries-->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<script type='text/javascript' src='js/lib/jquery-1.11.3.min.js'></script>
-	<script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
-	<script type='text/javascript' src='js/lib/angular.min.js'></script>
-	<script type='text/javascript' src='js/lib/underscore.js'></script>
+	<link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/lib/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+ 	<link rel="stylesheet" type="text/css" href="css/component.css" />	
+	<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
-	<!--user-defined-->
-	<link rel="stylesheet" type="text/css" href="css/external.css">
-	<script type='text/javascript' src='js/main.js'></script>
+<!-- 	user-defined -->
+	<link rel="stylesheet" type="text/css" href="css/output/index.css">
 
 	<title>UC Berkeley SES</title>
 </head>
 <body ng-controller='mainctrl'>
 	<div ng-include="'templates/header.html'"></div>
-	<div class="view" ng-view></div>
+	<div class="demo-1">
+		<div class="content">
+			<div id="large-header" class="large-header">
+				<canvas id="demo-canvas"></canvas>
+				<h1 class="main-title">Society of <span class="thin">Engineering Sciences</span></h1>
+			</div>
+			<div class="codrops-top clearfix">
+				
+			</div>
+			<div class="codrops-header">
+				<h1>Who We Are <span>The Society of Engineering Sciences is the professional and social club of the Engineering Science department at University of California - Berkeley.</span></h1>
+				<nav class="codrops-demos">
+					<a href="">Club Constitution</a>
+					<a href="">Mission Statement</a>
+					<a href="">Join our mailing list</a>
+				</nav>
+			</div>
+		</div>
+	</div>
 	<div ng-include="'templates/footer.html'"></div>
+
+<!-- 	<div class="view" ng-view></div>
+ -->
+	<script src="js/lib/TweenLite.min.js"></script>
+	<script src="js/lib/EasePack.min.js"></script>
+	<script src="js/lib/rAF.js"></script>
+	<script src="js/demo-1.js"></script>
+	<script type='text/javascript' src='js/lib/jquery-1.11.3.min.js'></script>
+	<script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+	<script type='text/javascript' src='js/lib/angular.min.js'></script>
+	<script type='text/javascript' src='js/lib/underscore.js'></script>
+	<script type='text/javascript' src='js/main.js'></script>
+	<script type='text/javascript' src='js/navbar.js'></script>
 </body>
 </html>
+

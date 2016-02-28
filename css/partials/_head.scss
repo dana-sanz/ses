@@ -1,0 +1,51 @@
+header {
+
+	position: fixed;
+	top: 0px;
+	z-index: 999;
+	width: 100%;
+	background: none;
+	overflow: hidden;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	background-color:transparent;
+	/*set opacity to 0 in beginning for pop in effect */
+	opacity: 0.5;
+	height:5em;
+
+	/* menu bar*/
+	nav {
+		float:right;
+		margin-right: 3.5em;
+		ul {
+		 	list-style: none;
+			overflow: hidden;
+		  	text-align: right;
+	  		float: right;
+
+			li {
+			  display: inline-block;
+			  margin-left: 35px;
+			  line-height: 5em;
+			  color: whitesmoke;
+
+			}
+
+			.active {
+			  color: #888888;
+			  text-transform: uppercase;
+			}
+		}
+	}
+
+}
+
+/* scroll effect */
+.sticky {
+	background-color: rgba(255, 255, 255, 0.93);
+	opacity: 1;
+	border-bottom: 1px solid gainsboro;
+	nav ul li {
+		color: black;
+	}
+}

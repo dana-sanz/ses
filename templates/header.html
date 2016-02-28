@@ -1,6 +1,16 @@
-<div class='heading'>
-	<h1>Society of Engineering Sciences at Berkeley</h1>
-</div>
-<div class='navbar'>
-	<button ng-class='{active : path == item}' class='btn btn-inverse' style='height:40px; font-size:15px; border-radius:0px' ng-repeat='item in items' ng-click='goto(item)' type='button' ng-bind='item'></button>
-</div>
+<header>
+	<div class="row">
+        <div class="mobile-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+		<nav>
+			<ul>
+				<li ng-class='{active : path == item}' ng-repeat='item in items' ng-click='goto(item)' ng-bind='item'>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>
