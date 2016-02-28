@@ -25,9 +25,8 @@ footer {
     footer .footer-right .quick-links {
       font-weight: 600;
       font-size: 18px;
-      line-height: 1.8em;
-      text-transform: uppercase;
-      margin-bottom: 1em; }
+      line-height: 3em;
+      text-transform: uppercase; }
   footer .footer-left a {
     margin-right: 2em;
     display: inline-block;
