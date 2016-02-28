@@ -3,13 +3,15 @@ footer {
   font-weight: 400;
   padding: 7em 10em;
   color: whitesmoke;
-  background-color: #333300;
+  background-color: #333;
   box-sizing: border-box;
   width: 100%;
   text-align: left;
   margin-top: 80px;
   font-size: 1em;
   line-height: 1.25; }
+  footer a {
+    color: whitesmoke !important; }
   footer .title {
     font-size: 2em;
     line-height: 1.8em;
@@ -41,6 +43,8 @@ a {
   text-align: center;
   background-color: brown;
   color: whitesmoke; }
+  .copyright a {
+    color: whitesmoke; }
 
 /* mobile devices */
 @media (max-width: 750px) {
@@ -57,6 +61,7 @@ a {
       margin: 0 auto 20px; } }
 header {
   position: fixed;
+  height: 5em;
   top: 0px;
   z-index: 999;
   width: 100%;
@@ -65,9 +70,6 @@ header {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   background-color: transparent;
-  /*set opacity to 0 in beginning for pop in effect */
-  opacity: 0.5;
-  height: 5em;
   /* menu bar*/
   /*responsive*/ }
   header .row {
@@ -79,15 +81,16 @@ header {
       list-style: none;
       overflow: hidden;
       text-align: right;
-      float: right; }
+      float: right;
+      line-height: 3em; }
       header nav ul li {
         display: inline-block;
         margin-left: 35px;
-        line-height: 5em;
         color: whitesmoke; }
       header nav ul .active {
-        color: #888888;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: 18px; }
   @media only screen and (max-width: 766px) {
     header {
       padding-top: 25px; }
@@ -106,8 +109,7 @@ header {
 
 /* scroll effect */
 .sticky {
-  background-color: rgba(255, 255, 255, 0.93);
-  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.7);
   border-bottom: 1px solid gainsboro; }
   .sticky nav ul li {
     color: black; }
@@ -141,11 +143,105 @@ header {
   .open-nav nav ul li {
     color: black; }
 
-.view {
-  margin: 20px;
-  padding-bottom: 20px; }
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'codropsicons';
+  src: url("../fonts/codropsicons/codropsicons.eot");
+  src: url("../fonts/codropsicons/codropsicons.eot?#iefix") format("embedded-opentype"), url("../fonts/codropsicons/codropsicons.woff") format("woff"), url("../fonts/codropsicons/codropsicons.ttf") format("truetype"), url("../fonts/codropsicons/codropsicons.svg#codropsicons") format("svg"); }
+/*it makes sure that the container's children floats are cleared*/
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
 
-.upcomingevents, .pastevents {
-  word-wrap: break-word; }
+.clearfix:before, .clearfix:after {
+  content: '';
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+body {
+  background: #fff;
+  color: #383a3c;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: 'Raleway', Calibri, Arial, sans-serif; }
+  body a {
+    color: brown; }
+
+.button {
+  color: #333;
+  display: inline-block;
+  margin: 0.35em 0.1em;
+  padding: 0.5em 1.2em;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  border-radius: 2px;
+  font-size: 110%;
+  border: 2px solid transparent; }
+
+.button:hover {
+  border-color: #383a3c;
+  color: inherit;
+  border-color: initial; }
+
+.page {
+  margin: 8em; }
+  .page p {
+    margin-bottom: 2.1em;
+    margin-top: 0.5em; }
+  .page h4 {
+    margin: 0px; }
+
+.title {
+  text-align: center;
+  font-size: 3em;
+  line-height: 1em;
+  font-weight: 400; }
+
+#mission-statement .statement {
+  line-height: 2em; }
+
+#guide h4 {
+  margin-bottom: 1em; }
+#guide #guide-list {
+  -webkit-columns: 2 5em;
+  -moz-columns: 2 5em;
+  -ms-columns: 2 5em;
+  columns: 2 5em; }
+  #guide #guide-list #current-guide {
+    margin-bottom: 7em; }
+
+#members h4 {
+  margin-bottom: 15px; }
+#members .container {
+  height: 15em; }
+#members .left {
+  float: left;
+  width: 8em; }
+#members .right {
+  float: none; }
+
+/* I think we should just make screen resizing illegal */
+@media only screen and (max-width: 766px) {
+  .page {
+    margin: 8em 2.5em; }
+
+  #members img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  #members h4 {
+    text-align: center; }
+  #members .left {
+    float: none;
+    width: 100%; }
+  #members .container {
+    height: 100%; } }
 
 /*# sourceMappingURL=index.css.map */

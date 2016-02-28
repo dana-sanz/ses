@@ -1,13 +1,140 @@
 @import 'partials/_foot.scss';
 @import 'partials/_head.scss';
 
-
-.view {
-	margin:20px;
-	padding-bottom:20px;
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
 }
 
-.upcomingevents, .pastevents {
-	word-wrap: break-word;
+@mixin columns($numCol, $width) {
+    -webkit-columns: $numCol $width;
+    -moz-columns: $numCol $width;
+    -ms-columns: $numCol $width;
+    columns: $numCol $width;
 }
+
+/*it makes sure that the container's children floats are cleared*/
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+	background: #fff;
+	color: #383a3c;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.5em;
+	font-family: 'Raleway', Calibri, Arial, sans-serif;
+
+	a {
+		color: brown;
+	}
+}
+
+.button  {
+	color: #333;
+	display: inline-block;
+    margin: 0.35em 0.1em;
+    padding: 0.5em 1.2em;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border-radius: 2px;
+    font-size: 110%;
+    border: 2px solid transparent;
+}
+
+.button:hover {
+	border-color: #383a3c;
+	color: inherit;
+	border-color: initial;
+}
+
+.page {
+	margin: 8em;
+	p {
+    	margin-bottom: 2.1em;
+    	margin-top: 0.5em;
+	}
+	h4 {
+	    margin: 0px;
+	}
+}
+
+.title {
+	text-align: center;
+	font-size: 3em;
+	line-height: 1em;
+	font-weight: 400;
+}
+
+#mission-statement {
+
+	.statement {
+		line-height: 2em;
+	}
+}
+
+#guide {
+	h4 {
+		margin-bottom: 1em;
+	}
+	#guide-list {
+		@include columns(2, 5em);
+		#current-guide {
+			margin-bottom: 7em;
+		}
+	}
+}
+
+#members{
+	h4 {
+		margin-bottom: 15px;
+	}
+	.container{
+		height:15em;
+	}
+	.left {
+		float:left;
+		width: 8em;
+	}
+	.right{
+		float:none;
+	}
+	
+}
+/* I think we should just make screen resizing illegal */
+@media only screen and (max-width: 766px) {
+	.page {
+		margin: 8em 2.5em;
+	}
+	#members {
+		img {
+			 display: block;
+		    margin-left: auto;
+		    margin-right: auto;
+		}
+		h4{
+			text-align: center;
+		}
+		.left {
+			float: none;
+			width: 100%;
+		}
+		.container{
+			height:100%;
+		}
+	}
+
+}
+
+
 

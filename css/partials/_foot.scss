@@ -3,13 +3,17 @@ footer {
 	font-weight: 400;
 	padding: 7em 10em;
 	color: whitesmoke;
-	background-color: #333300;
+	background-color: #333;
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
 	margin-top: 80px;
 	font-size: 1em;
     line-height: 1.25;
+
+    a {
+    	color:whitesmoke !important;
+    }
 
 	.title {	
 	    font-size: 2em;
@@ -53,7 +57,13 @@ a {
     text-align: center;
     background-color: brown;
     color: whitesmoke;
+
+    a {
+    	color:whitesmoke;
+    }
 }
+
+
 /* mobile devices */
 @media (max-width: 750px) {
 	.title {

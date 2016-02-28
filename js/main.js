@@ -5,18 +5,18 @@ myApp = angular.module('myApp', [])
 myApp.config(function($routeProvider) {
 	$routeProvider.
 		when('/Home', {controller:homectrl, templateUrl:'views/home.html'}).
-		when('/About Us', {controller:aboutusctrl, templateUrl:'views/aboutus.html'}).
 		when('/Members', {controller:membersctrl, templateUrl:'views/members.html'}).
 		when('/Events', {controller:eventsctrl, templateUrl:'views/events.html'}).
 		when('/Photos', {controller:photosctrl, templateUrl:'views/photos.html'}).
-		when('/Guide', {controller:courseguidectrl, templateUrl:'views/courseguide.html'}).
+		when('/Guide', {controller:guidectrl, templateUrl:'views/guide.html'}).
 		when('/FAQ', {controller:faqctrl, templateUrl:'views/faq.html'}).
+		when('/MissionStatement', {templateUrl: 'views/missionstatement.html'}).
 		otherwise({redirectTo:'/Home'});
 });
 //--------------------------------------------------------------
 //Main (regular controller)
 function mainctrl ($scope, $location) {
-	$scope.items = ['Home', 'About Us', 'Members', 'Events', 'Photos', 'Guide', 'FAQ'];
+	$scope.items = ['Home', 'Members', 'Events', 'Photos', 'Guide', 'FAQ'];
 	$scope.path = $location.path;
 
 	$scope.goto = function(item) {
@@ -36,6 +36,14 @@ function mainctrl ($scope, $location) {
 	        $('header').addClass('open-nav');
 	    }
 	}
+	// Sticky Header
+	$(window).scroll(function() {
+	    if ($(window).scrollTop() > 200) {
+	        $('header').addClass('sticky');
+	    } else {
+	        $('header').removeClass('sticky');
+	    }
+	});
 };
 //--------------------------------------------------------------
 //Home page controller
@@ -123,7 +131,7 @@ function membersctrl($scope) {
 			description:"",
 			name:'Yuan Yuan',
 			img:'img/yuan.jpg',
-			bio: "hello! I'm a third year CS and music major. Outside of those two interests, I like making things--especially bad jokes."
+			bio: "Hello! I'm a third year CS and music major. Outside of those two interests, I like making things--especially bad jokes."
 		},
 		{
 			position:'Faculty Correspondent',
@@ -173,7 +181,7 @@ function photosctrl($scope) {
 };
 //--------------------------------------------------------------
 //Guide page controller
-function courseguidectrl($scope) {};
+function guidectrl($scope) {};
 //--------------------------------------------------------------
 //FAQ page controller
 function faqctrl($scope) {

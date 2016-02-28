@@ -1,15 +1,15 @@
-<p>Any comments or update requests, please send to <a href='mailto:berkeleyses@gmail.com'>berkeleyses@gmail.com</a><p>
-<h3>Current Leadership</h3>
-<div ng-repeat='officer in officers' style="margin-bottom:40px">
-	<div>
-		<img style='float:left; padding-right:10px' width='70px' src='{{officer.img}}'></img>
+<div class='page' id='members'>
+	<h3 class="title">Current Leadership</h2>
+	<div class='member-container'>
+		<div class="clearfix container" ng-repeat='officer in officers'>
+			<h4><span ng-bind='officer.position'></span>: <span ng-bind='officer.name'></span></h4>
+			<div class='left'>
+				<img width='100em' src='{{officer.img}}'></img>
+			</div>
+			<p class='right' ng-bind='officer.bio'></p>
+			<br>
+		</div>
 	</div>
-	<div style='margin-left:80px'>
-		<h4><span ng-bind='officer.position'></span>: <span ng-bind='officer.name'></span></h4>
-		<p><em ng-bind='officer.description'></em></p>
-		<p ng-bind='officer.bio'></p>
-	</div>
-	<br>
+	<h3>How do I get involved?</h3>
+	<a href='mailto:berkeleyses@gmail.com'>Email us</a> or <a target="_blank" href='https://calmail.berkeley.edu/manage/list/listinfo/ses_members@lists.berkeley.edu'>click here</a> to hop on our mailing list, or simply <a href="#/Events">come to one of our events!</a>
 </div>
-<h3>How do I get involved?</h3>
-Email <a href='mailto:berkeleyses@gmail.com'>berkeleyses@gmail.com</a> or <a target="_blank" href='https://calmail.berkeley.edu/manage/list/listinfo/ses_members@lists.berkeley.edu'>click here</a> to hop on our mailing list.
