@@ -1,6 +1,4 @@
 .home-nav{
-	background-color:transparent;
-	border-bottom:none;
 	nav ul li {
 		color: whitesmoke;
 	}
@@ -14,10 +12,8 @@ header {
 	width: 100%;
 	background: none;
 	overflow: hidden;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
-	background-color: rgba(255, 255, 255, 0.7);
-	border-bottom: 1px solid gainsboro;
+  @include transition(all,0.3s);
+	background-color:transparent;
 
 	.row {
 		position: relative;
@@ -71,8 +67,9 @@ header {
 
 /* scroll effect */
 .sticky {
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(255, 255, 255, 0.8);
 	border-bottom: 1px solid gainsboro;
+  .mobile-toggle span {background:grey}
 	nav ul li {
 		color: black;
 	}
@@ -86,27 +83,25 @@ header {
 	position: absolute;
 	right: 22px;
 	width: 30px;
-	-webkit-transition: all 200ms ease-in;
-	-moz-transition: all 200ms ease-in;
-	transition: all 200ms ease-in;
+  @include transition(all,0.2s,ease-in);
 	span {
 		width: 30px;
 		height: 4px;
 		margin-bottom: 6px;
 		border-radius: 1000px;
-		background: #8f8f8f;
+		background: whitesmoke; 
 		display: block;
 	}
 }
 
 /* only for mobile */
 .open-nav {
-    height: 700px;
+   height: 30em;
 	.mobile-toggle {
-	  transform: rotate(-90deg);
-	  -webkit-transform: rotate(-90deg);
+    @include transform(rotate(-90deg));
+    span {background:grey}
 	}
-	background-color: rgba(255, 255, 255, 1);
+	background-color: rgba(255, 255, 255, 0.8);
 	nav ul li {
 		color: black;
 	}

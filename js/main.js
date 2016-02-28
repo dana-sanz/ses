@@ -1,8 +1,10 @@
 //--------------------------------------------------------------
 //initializes controller
-myApp = angular.module('myApp', [])
+angular
 
-myApp.config(function($routeProvider) {
+.module('ses', [])
+
+.config(function($routeProvider) {
 	$routeProvider.
 		when('/Home', {controller:homectrl, templateUrl:'views/home.html'}).
 		when('/Members', {controller:membersctrl, templateUrl:'views/members.html'}).
@@ -12,55 +14,30 @@ myApp.config(function($routeProvider) {
 		when('/FAQ', {controller:faqctrl, templateUrl:'views/faq.html'}).
 		when('/MissionStatement', {templateUrl: 'views/missionstatement.html'}).
 		otherwise({redirectTo:'/Home'});
+})
+
+.directive("scrollWatch", function ($window) {
+  return function(scope, element, attrs) {
+    angular.element($window).bind("scroll", function() {
+     this.pageYOffset >= 100 ? scope.scrolledFar = true : scope.scrolledFar = false;
+     scope.$apply();
+    });
+  };
 });
-//--------------------------------------------------------------
+
 //Main (regular controller)
 function mainctrl ($scope, $location) {
 	$scope.items = ['Home', 'Members', 'Events', 'Photos', 'Guide', 'FAQ'];
 	$scope.path = $location.path;
+  $scope.location = $location.url();
 
 	$scope.goto = function(item) {
 		$location.path('/'+item);
 		$scope.path = item;
-
-		// close navbar
-		if ($('header').hasClass('open-nav')) {
-        	$('header').removeClass('open-nav');
-    	}
-	};
-
-	// lolol wtf is this hax
-    if ($location.url() == '/Home') {
-    	setTimeout(function(){$('header').addClass('home-nav'); }, 100);
-	}
-
-	// todo: clean up all this jquery stuff
-	$scope.$on('$locationChangeStart', function(event) {
-		if ($location.url() == '/Home') {
-			$('header').addClass('home-nav');
-		} else {
-			$('header').removeClass('home-nav');
-		}
-	});
-	
-	$scope.mobileNav = function() {
-		if ($('header').hasClass('open-nav')) {
-        	$('header').removeClass('open-nav');
-	    } else {
-	        $('header').addClass('open-nav');
-	    }
-	}
-	// Sticky Header
-	$(window).scroll(function() {
-		if ($location.url() == '/Home') {
-		    if ($(window).scrollTop() > 100) {
-		        $('header').addClass('sticky');
-		    } else {
-		        $('header').removeClass('sticky');
-		    }
-		}
-	});
+    $scope.location = $location.url();
+  };
 };
+
 //--------------------------------------------------------------
 //Home page controller
 function homectrl($scope) {

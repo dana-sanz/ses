@@ -1,3 +1,24 @@
+@mixin columns($numCol, $width) {
+    -webkit-columns: $numCol $width;
+    -moz-columns: $numCol $width;
+    -ms-columns: $numCol $width;
+    columns: $numCol $width;
+}
+
+@mixin transition($property, $duration...) {
+    -webkit-transition: $property $duration;
+    -moz-transition: $property $duration;
+    -ms-transition: $property $duration;
+    transition: $property $duration;
+}
+
+@mixin transform($function) {
+    -webkit-transform: $function;
+    -moz-transform: $function;
+    -ms-transform: $function;
+    transform: $function;
+}
+
 @import 'partials/_foot.scss';
 @import 'partials/_head.scss';
 
@@ -10,13 +31,6 @@
 		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
 		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
 		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
-}
-
-@mixin columns($numCol, $width) {
-    -webkit-columns: $numCol $width;
-    -moz-columns: $numCol $width;
-    -ms-columns: $numCol $width;
-    columns: $numCol $width;
 }
 
 /*it makes sure that the container's children floats are cleared*/

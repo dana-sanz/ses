@@ -1,14 +1,18 @@
-<header>
-	<div class="row">
-        <div class="mobile-toggle" ng-click="mobileNav()">
+<header scroll-watch ng-class="{'open-nav': mobileNavBarOpen, 'home-nav': location =='/Home', 'sticky': scrolledFar}">
+  <div class="row">
+  <!-- mobile-toggle class only exists when screen is < 760px 
+       we can get away with the simple mobileExists boolean without further sophistication
+       because we can assume the user isn't deliberately resizing their screen -->
+        <div class="mobile-toggle" ng-click="mobileNavBarOpen = !mobileNavBarOpen; mobileExists = true">
             <span></span>
             <span></span>
             <span></span>
         </div>
-
 		<nav>
 			<ul>
-				<li ng-class='{active : path == item}' ng-repeat='item in items' ng-click='goto(item)' ng-bind='item'>
+        <li ng-class='{active : path == item}' 
+            ng-repeat='item in items' 
+            ng-click='goto(item); (($parent.mobileExists) && ($parent.mobileNavBarOpen = !$parent.mobileNavBarOpen))' ng-bind='item'>
 				</li>
 			</ul>
 		</nav>

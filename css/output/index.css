@@ -59,11 +59,8 @@ a {
     footer .footer-right {
       float: none;
       margin: 0 auto 20px; } }
-.home-nav {
-  background-color: transparent;
-  border-bottom: none; }
-  .home-nav nav ul li {
-    color: whitesmoke; }
+.home-nav nav ul li {
+  color: whitesmoke; }
 
 header {
   position: fixed;
@@ -74,9 +71,10 @@ header {
   background: none;
   overflow: hidden;
   -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
   transition: all 0.3s;
-  background-color: rgba(255, 255, 255, 0.7);
-  border-bottom: 1px solid gainsboro;
+  background-color: transparent;
   /* menu bar*/
   /*responsive*/ }
   header .row {
@@ -116,8 +114,10 @@ header {
 
 /* scroll effect */
 .sticky {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
   border-bottom: 1px solid gainsboro; }
+  .sticky .mobile-toggle span {
+    background: grey; }
   .sticky nav ul li {
     color: black; }
 
@@ -129,24 +129,29 @@ header {
   position: absolute;
   right: 22px;
   width: 30px;
-  -webkit-transition: all 200ms ease-in;
-  -moz-transition: all 200ms ease-in;
-  transition: all 200ms ease-in; }
+  -webkit-transition: all 0.2s, ease-in;
+  -moz-transition: all 0.2s, ease-in;
+  -ms-transition: all 0.2s, ease-in;
+  transition: all 0.2s, ease-in; }
   .mobile-toggle span {
     width: 30px;
     height: 4px;
     margin-bottom: 6px;
     border-radius: 1000px;
-    background: #8f8f8f;
+    background: whitesmoke;
     display: block; }
 
 /* only for mobile */
 .open-nav {
-  height: 700px;
-  background-color: white; }
+  height: 30em;
+  background-color: rgba(255, 255, 255, 0.8); }
   .open-nav .mobile-toggle {
-    transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg); }
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg); }
+    .open-nav .mobile-toggle span {
+      background: grey; }
   .open-nav nav ul li {
     color: black; }
 
