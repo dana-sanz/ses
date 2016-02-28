@@ -20,6 +20,7 @@ footer {
 	    line-height: 1.8em;
 	    max-width: 15em;
 	    margin-bottom: 0.8em;
+      display:flex;
 	}
 
 	.footer-links{
@@ -41,7 +42,7 @@ footer {
 	}
 
 	.footer-left a{
-		margin-right: 2em;
+		margin-right: 1.9em;
 		display: inline-block;
 		font-size: 40px;
 	}
