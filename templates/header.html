@@ -1,4 +1,4 @@
-<header scroll-watch ng-class="{'open-nav': mobileNavBarOpen, 'home-nav': location =='/Home', 'sticky': scrolledFar}">
+<header scroll-watch ng-class="{'open-nav': mobileNavBarOpen, 'home-nav': location =='/Home' || location=='', 'sticky': scrolledFar}">
   <div class="row">
   <!-- mobile-toggle class only exists when screen is < 760px 
        we can get away with the simple mobileExists boolean without further sophistication
