@@ -28,6 +28,20 @@ function mainctrl ($scope, $location) {
         	$('header').removeClass('open-nav');
     	}
 	};
+
+	// lolol wtf is this hax
+    if ($location.url() == '/Home') {
+    	setTimeout(function(){$('header').addClass('home-nav'); }, 100);
+	}
+
+	// todo: clean up all this jquery stuff
+	$scope.$on('$locationChangeStart', function(event) {
+		if ($location.url() == '/Home') {
+			$('header').addClass('home-nav');
+		} else {
+			$('header').removeClass('home-nav');
+		}
+	});
 	
 	$scope.mobileNav = function() {
 		if ($('header').hasClass('open-nav')) {
@@ -38,11 +52,13 @@ function mainctrl ($scope, $location) {
 	}
 	// Sticky Header
 	$(window).scroll(function() {
-	    if ($(window).scrollTop() > 200) {
-	        $('header').addClass('sticky');
-	    } else {
-	        $('header').removeClass('sticky');
-	    }
+		if ($location.url() == '/Home') {
+		    if ($(window).scrollTop() > 100) {
+		        $('header').addClass('sticky');
+		    } else {
+		        $('header').removeClass('sticky');
+		    }
+		}
 	});
 };
 //--------------------------------------------------------------

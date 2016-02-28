@@ -59,6 +59,12 @@ a {
     footer .footer-right {
       float: none;
       margin: 0 auto 20px; } }
+.home-nav {
+  background-color: transparent;
+  border-bottom: none; }
+  .home-nav nav ul li {
+    color: whitesmoke; }
+
 header {
   position: fixed;
   height: 5em;
@@ -69,7 +75,8 @@ header {
   overflow: hidden;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid gainsboro;
   /* menu bar*/
   /*responsive*/ }
   header .row {
@@ -86,7 +93,7 @@ header {
       header nav ul li {
         display: inline-block;
         margin-left: 35px;
-        color: whitesmoke; }
+        color: black; }
       header nav ul .active {
         text-transform: uppercase;
         font-weight: bolder;
@@ -200,7 +207,7 @@ body {
 
 .title {
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   line-height: 1em;
   font-weight: 400; }
 
