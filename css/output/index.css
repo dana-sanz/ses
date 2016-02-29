@@ -161,6 +161,26 @@ header {
   .open-nav nav ul li {
     color: black; }
 
+/* used for responsive (and responsible) embedded content (iframes) */
+/* 16x9 Aspect Ratio */
+.aspect-ratio-16x9 {
+  padding-bottom: 56.25%; }
+
+/* 4x3 Aspect Ratio */
+.aspect-ratio-4x3 {
+  padding-bottom: 75%; }
+
+.frame-wrapper {
+  position: relative;
+  height: 0;
+  overflow: hidden; }
+  .frame-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
 @font-face {
   font-weight: normal;
   font-style: normal;
