@@ -229,7 +229,7 @@ body {
   border-color: initial; }
 
 .page {
-  margin: 8em; }
+  margin: 8em 16em; }
   .page p {
     margin-bottom: 2.1em;
     margin-top: 0.5em; }
@@ -240,7 +240,8 @@ body {
   text-align: center;
   font-size: 2em;
   line-height: 1em;
-  font-weight: 400; }
+  font-weight: 400;
+  margin-bottom: 1.8em; }
 
 #mission-statement .statement {
   line-height: 2em; }
@@ -257,8 +258,6 @@ body {
 
 #members h4 {
   margin-bottom: 15px; }
-#members .container {
-  height: 15em; }
 #members .left {
   float: left;
   width: 8em; }
@@ -266,7 +265,7 @@ body {
   float: none; }
 
 /* I think we should just make screen resizing illegal */
-@media only screen and (max-width: 766px) {
+@media screen and (max-width: 766px) {
   .page {
     margin: 8em 2.5em; }
 
@@ -281,5 +280,8 @@ body {
     width: 100%; }
   #members .container {
     height: 100%; } }
+@media screen and (max-width: 1100px) and (min-width: 767px) {
+  .page {
+    margin: 8em; } }
 
 /*# sourceMappingURL=index.css.map */

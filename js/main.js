@@ -29,13 +29,15 @@ angular
 function mainctrl ($scope, $location) {
 	$scope.items = ['Home', 'Members', 'Events', 'Photos', 'Guide', 'FAQ'];
 	$scope.path = $location.path;
-  $scope.location = $location.url();
 
 	$scope.goto = function(item) {
 		$location.path('/'+item);
 		$scope.path = item;
-    $scope.location = $location.url();
   };
+
+  $scope.$on("$locationChangeStart", function() {
+    $scope.location = $location.url();
+  }); 
 };
 
 //--------------------------------------------------------------
