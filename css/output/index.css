@@ -96,7 +96,8 @@ header {
       header nav ul li {
         display: inline-block;
         margin-left: 35px;
-        color: black; }
+        color: black;
+        cursor: pointer; }
       header nav ul .active {
         text-transform: uppercase;
         font-weight: bolder;
