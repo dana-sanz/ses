@@ -31,8 +31,7 @@ footer {
 
 	.footer-right{
 		float: right;
-		margin-right: 10em;
-    
+    padding-right:10%;
 	    .quick-links {
 	      font-weight: 600;
 	      font-size: 18px;
@@ -54,11 +53,10 @@ a {
 }
 
 .copyright {
-	padding: 1em 1.5em;
     text-align: center;
     background-color: brown;
     color: whitesmoke;
-
+    line-height: 2.5em;
     a {
     	color:whitesmoke;
     }
@@ -66,14 +64,14 @@ a {
 
 
 /* mobile devices */
-@media (max-width: 750px) {
+@media screen and (max-width: 750px) {
 	.title {
 		max-width: 9em;
 	}
 
 	footer {
 		text-align: center;
-
+    padding: 7em 5em;
 		.footer-left a{
 			margin-left: 1em;
 			margin-right: 1em;
@@ -82,6 +80,7 @@ a {
 		.footer-right{
 			float: none;
 			margin: 0 auto 20px;
+      padding: 0;
 		}
 	}
 
