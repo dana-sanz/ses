@@ -10,9 +10,10 @@
         </div>
 		<nav>
 			<ul>
-        <li ng-class='{active : path == item}' 
+        <li ng-class='{active : item.toUpperCase() == location.slice(1).toUpperCase()}'
             ng-repeat='item in items' 
-            ng-click='goto(item); (($parent.mobileExists) && ($parent.mobileNavBarOpen = !$parent.mobileNavBarOpen))' ng-bind='item'>
+            ng-click='goto(item); (($parent.mobileExists) && ($parent.mobileNavBarOpen = !$parent.mobileNavBarOpen))' 
+            ng-bind='item'>
 				</li>
 			</ul>
 		</nav>
