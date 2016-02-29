@@ -244,6 +244,15 @@ body {
   font-weight: 400;
   margin-bottom: 1.8em; }
 
+#events #blocker {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  z-index: 10;
+  width: 100%;
+  background-color: #E5ECF9; }
+
 #mission-statement .statement {
   line-height: 2em; }
 
