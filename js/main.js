@@ -101,6 +101,13 @@ function membersctrl($scope) {
 			bio: "Hi, my name is Drew. I'm an Engineering Physics major by day, a violinist in the University Symphony by night, a photographer sometimes, and a Tiramisu lover always."
 		},
 		{
+			position:'Energy Engineering Correspondent',
+			description:"",
+			name:'Vishnu Murthy',
+			img:'img/vishnu.jpg',
+			bio:"Oh Hey There! I'm Vishnu, and I'm a third year energy engineering major + eecs minor. I'm uber involved with the energy community here on campus and I love to play basketball and get outdoors!"
+		},
+		{
 			position:'Outreach Chair',
 			description:"",
 			name:'Shreyas Parthasarathy',
