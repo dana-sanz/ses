@@ -1,13 +1,12 @@
 <div class='page' id='members'>
 	<h3 class="title">Current Leadership</h2>
 	<div class='member-container'>
-		<div class="clearfix container" ng-repeat='officer in officers'>
+		<div style="height:170px" class="clearfix container" ng-repeat='officer in officers'>
 			<h4><span ng-bind='officer.position'></span>: <span ng-bind='officer.name'></span></h4>
 			<div class='left'>
 				<img width='100em' src='{{officer.img}}'></img>
 			</div>
 			<p class='right' ng-bind='officer.bio'></p>
-			<br>
 		</div>
 	</div>
 	<h3>How do I get involved?</h3>
