@@ -13,6 +13,7 @@ angular
 		when('/Guide', {controller:guidectrl, templateUrl:'views/guide.html'}).
 		when('/FAQ', {controller:faqctrl, templateUrl:'views/faq.html'}).
 		when('/MissionStatement', {templateUrl: 'views/missionstatement.html'}).
+    when('/Constitution', {templateUrl: 'views/constitution.html'}).
 		otherwise({redirectTo:'/Home'});
 })
 

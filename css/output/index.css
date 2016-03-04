@@ -210,6 +210,9 @@ body {
   body a {
     color: brown; }
 
+.centered-links {
+  text-align: center; }
+
 .button {
   color: #333;
   display: inline-block;
@@ -242,7 +245,11 @@ body {
   font-size: 2em;
   line-height: 1em;
   font-weight: 400;
-  margin-bottom: 1.8em; }
+  margin-bottom: 1.4em; }
+
+.subtitle {
+  font-size: 0.4em;
+  font-style: italic; }
 
 #events #blocker {
   position: absolute;
@@ -253,8 +260,13 @@ body {
   width: 100%;
   background-color: #E5ECF9; }
 
-#mission-statement .statement {
-  line-height: 2em; }
+/* for document-like bodies (ie mission statmenent and constitution) */
+.statement {
+  line-height: 1.8em; }
+  .statement .section-heading {
+    font-weight: 400;
+    font-size: 1.2em;
+    text-decoration: underline; }
 
 #guide h4 {
   margin-bottom: 1em; }
