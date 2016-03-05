@@ -266,7 +266,9 @@ body {
   .statement .section-heading {
     font-weight: 400;
     font-size: 1.2em;
-    text-decoration: underline; }
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center; }
 
 #guide h4 {
   margin-bottom: 1em; }

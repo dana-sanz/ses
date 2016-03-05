@@ -6,14 +6,14 @@ angular
 
 .config(function($routeProvider) {
 	$routeProvider.
-		when('/Home', {controller:homectrl, templateUrl:'views/home.html'}).
-		when('/Members', {controller:membersctrl, templateUrl:'views/members.html'}).
-		when('/Events', {controller:eventsctrl, templateUrl:'views/events.html'}).
-		when('/Photos', {controller:photosctrl, templateUrl:'views/photos.html'}).
-		when('/Guide', {controller:guidectrl, templateUrl:'views/guide.html'}).
-		when('/FAQ', {controller:faqctrl, templateUrl:'views/faq.html'}).
+		when('/Home', {templateUrl:'views/home.html'}).
+		when('/Members', {controller: 'membersctrl', templateUrl:'views/members.html'}).
+		when('/Events', {templateUrl:'views/events.html'}).
+		when('/Photos', {templateUrl:'views/photos.html'}).
+		when('/Guide', {templateUrl:'views/guide.html'}).
+		when('/FAQ', {templateUrl:'views/faq.html'}).
 		when('/MissionStatement', {templateUrl: 'views/missionstatement.html'}).
-    when('/Constitution', {templateUrl: 'views/constitution.html'}).
+   		when('/Constitution', {templateUrl: 'views/constitution.html'}).
 		otherwise({redirectTo:'/Home'});
 })
 
@@ -24,10 +24,10 @@ angular
      scope.$apply();
     });
   };
-});
+})
 
 //Main (regular controller)
-function mainctrl ($scope, $location) {
+.controller('mainctrl', function ($scope, $location) {
 	$scope.items = ['Home', 'Members', 'Events', 'Photos', 'Guide', 'FAQ'];
 	$scope.path = $location.path;
 
@@ -39,18 +39,11 @@ function mainctrl ($scope, $location) {
   $scope.$on("$locationChangeStart", function() {
     $scope.location = $location.url();
   }); 
-};
+})
 
 //--------------------------------------------------------------
-//Home page controller
-function homectrl($scope) {
-};
-//--------------------------------------------------------------
-//About Us page controller
-function aboutusctrl($scope) {};
-//--------------------------------------------------------------
 //Members page controller
-function membersctrl($scope) {
+.controller('membersctrl', function($scope) {
 	$scope.officers = [
 		{
 			position:'President',
@@ -137,49 +130,5 @@ function membersctrl($scope) {
 			bio: "My bio: Hey y'all! I'm Dennis, an Engineering Physics major and EECS minor. In my free time, I like hiking, playing tennis, and watching movies. I also tutor physics at the SLC."
 		},
 	];
-};
-//--------------------------------------------------------------
-//Events page controller
-function eventsctrl($scope) {
-	$scope.showpastevents = false;
-	$scope.show = function() {$scope.showpastevents = true};
-	$scope.hide = function() {$scope.showpastevents = false};
-
-	$scope.today = new Date();
-	$scope.upcoming = function(item) {return (item.datetime > $scope.today)};
-	$scope.past = function(item) {return (item.datetime < $scope.today)};
-
-	$scope.eventheaders = ['Event', 'Type', 'Date', 'Time', 'Location', 'Details'];
-	$scope.pasteventheaders = ['Event', 'Type', 'Date', 'Time', 'Location', 'Details'];
-
-	$scope.events = [
-		{
-			name:'Test event',
-			type:'meeting',
-			datetime:new Date(2013, 0, 31, 21),
-			location:'tba',
-			description:'test description',
-		},
-		{
-			name:'Test event 5',
-			type:'meeting',
-			datetime:new Date(2013, 8, 21, 20),
-			location:'tba',
-			description:'test description',
-		},
-	]
-
-};
-//--------------------------------------------------------------
-//Photos page controller
-function photosctrl($scope) {
-	$scope.showflickr = false;
-};
-//--------------------------------------------------------------
-//Guide page controller
-function guidectrl($scope) {};
-//--------------------------------------------------------------
-//FAQ page controller
-function faqctrl($scope) {
-};
+})
 //--------------------------------------------------------------
