@@ -108,6 +108,13 @@ function membersctrl($scope) {
 			bio:"Oh Hey There! I'm Vishnu, and I'm a third year energy engineering major + eecs minor. I'm uber involved with the energy community here on campus and I love to play basketball and get outdoors!"
 		},
 		{
+			position:'Environmental Engineering Science Correspondent',
+			description:"",
+			name:'Jordan French',
+			img:'img/jordan-french.jpg',
+			bio: "Hello world!  I'm a third year UC Berkeley student studying environmental engineering science and minoring in energy and resources.  I work as an education co-coordinator with Cal Dining's Sustainability Team, focusing on educational events and outreach in the dining commons.  Outside of school and work, I volunteer with the Berkeley Student Food Collective, spend my nights discussing, creating, and filtering wastewater with the Berkeley Water Group and Cal Environmental Team, play half a dozen instruments, and explore the great outdoors through hiking, climbing, and scuba diving!"
+		},
+		{
 			position:'Outreach Chair',
 			description:"",
 			name:'Shreyas Parthasarathy',
