@@ -8,7 +8,7 @@ Github (this page) is the git server, and remains the single source of truth. Th
 
 1. Clone this directory into your local drive
 2. Make and test your changes
-3. Push to Github (the master branch is fine--We'll make branches later if we get enough people wanting to contribute)
+3. Push to Github (the master branch is fine--We'll make branches later if we get enough people wanting to contribute). The gh-pages branch contains the old version of the website.
 4. SSH into the server (`ses@ssh.ocf.berkeley.edu`)
 5. Go to the `~/public_html` folder
 6. Pull from Github (the origin is already configured to point here)
