@@ -42,107 +42,107 @@ angular
 })
 
 //--------------------------------------------------------------
-//Members page controller
+// Members page controller.
 .controller('membersctrl', function($scope) {
 	$scope.officers = [
 		{
-			position:'President',
-			description:"",
-			name:'Kunal Marwaha',
-			img:'img/kunal.jpg',
-			bio: "Hey, welcome to SES! I'm a fourth-year Engineering Physics major. I love to play and listen to all sorts of music (although I love jazz and funk). I currently live in the Berkeley Student Co-ops, and teach introductory programming to social scientists at the D-Lab. "
+            bio: "Hello, I'm Sinho, a well-caffeinated third-year Engineering Mathematics & Statistics major. I love to learn, whether it's pure mathematics and quantum mechanics or software engineering and machine learning. I also work as a TA for the EECS Department. In my free time, you can find me watching anime or hanging out with my housemates.",
+			description: "",
+			img: "img/sinho.jpg",
+			name: "Sinho Chewi",
+			position: "Co-President"
 		},
 		{
-			position:'Secretary/Treasurer',
-			description:"",
-			name:'Camille Biscarrat',
-			img:'img/camille.jpg',
-			bio: "Hi everyone! My name is Camille and I'm a third year Engineering Physics major. When I'm not debugging my CS project or trying to understand quantum mechanics, I like to play volleyball and bake (especially French desserts)!"
+            bio: "Oh Hey There! I'm Vishnu, and I'm a fourth-year Energy Engineering major + EECS minor. I'm uber involved with the energy community here on campus and I love to play basketball and get outdoors!",
+			description: "",
+			img: "img/vishnu.jpg",
+			name: "Vishnu Murthy",
+			position: "Co-President"
 		},
 		{
-			position:'Event Coordinator',
-			description:"",
-			name:'Sinho Chewi',
-			img:'img/sinho.jpg',
-			bio: "Hi, I'm Sinho (EP '18) and I don't know what to do with my life! In my free time I enjoy watching anime and learning more about various STEM-related fields. I'm currently learning how to live - cooking is hard."
+            bio: "No bio yet.",
+			description: "",
+			img: "img/nothing.jpg",
+			name: "Sean Anderson",
+			position: "Treasurer"
 		},
 		{
-			position:'Event Coordinator',
-			description:"",
-			name:'Goran Rez-kallah',
-			img:'img/goran.jpg',
-			bio: "My name is Goran and I'm a third year Engineering Physics major. If I'm not studying or doing homework I'm probably trying to wrap my head around complex issue like world peace or whether or not I should eat my last hot pocket. In my free time I like to binge watch tv shows and train brazilian jiu jitsu."
+            bio: "Hi everyone! My name is Camille and I'm a fourth-year Engineering Physics major. When I'm not debugging my CS project or trying to understand quantum mechanics, I like to play volleyball and bake (especially French desserts)!",
+			description: "",
+			img: "img/camille.jpg",
+			name: "Camille Biscarrat",
+			position: "Treasurer"
 		},
 		{
-			position:'Event Coordinator',
-			description:"",
-			name:'Carielle Spangenberg',
-			img:'img/carielle.jpg',
-			bio: "Hi my name is Carielle Spangenberg, and I'm a 4th year Engineering Physics major with a minor in Mechanical Engineering. I also work up at LBL, play violin, act as an assistant coach for a high school mock trial team, and love playing board games! This semester, I will be helping out with the Women in Engineering Science events."
+            bio: "Greetings! I am a third-year in the Energy Engineering program here in beautiful Berkeley, California. I'm an aficionado of outdoor activities: canoeing/kayaking, backpacking, running (things that end in -ing). I'm also a musician who can't seem to find enough silence.",
+			description: "",
+			img: "img/kean.jpg",
+			name: "Kean Amidi-Abraham",
+			position: "Energy Engineering Representative"
 		},
 		{
-			position:'Historian',
-			description:"",
-			name:'Joy Gu',
-			img:'img/joy.jpg',
-			bio: "Hi! My name is Joy, and I am a second year studying Engineering Math and Stats! I'm a campus tour guide, officer in the Society of Women Engineers, and Berkeley dog stalker on the side! You can usually find me either walking backwards or hugging the dogs on campus while contemplating the math class I just took :-)"
+            bio: "Hi! My name is Joy, and I am a third-year studying Engineering Mathematics & Statistics! I'm a campus tour guide, officer in the Society of Women Engineers, and Berkeley dog stalker on the side! You can usually find me either walking backwards or hugging the dogs on campus while contemplating the math class I just took. :-)",
+			description: "",
+			img: "img/joy.jpg",
+			name: "Joy Gu",
+			position: "Engineering Mathematics & Statistics Representative"
 		},
 		{
-			position:'Historian',
-			description:"",
-			name:'Drew Mendinueto',
-			img:'img/drew.jpg',
-			bio: "Hi, my name is Drew. I'm an Engineering Physics major by day, a violinist in the University Symphony by night, a photographer sometimes, and a Tiramisu lover always."
+            bio: "Hey y'all! I'm Dennis, an Engineering Physics major and EECS minor. In my free time, I like hiking, playing tennis, and watching movies. I also tutor physics at the SLC.",
+			description: "",
+			img: "img/dennis.jpg",
+			name: "Dennis Feng",
+			position: "Engineering Physics Representative"
 		},
 		{
-			position:'Energy Engineering Correspondent',
-			description:"",
-			name:'Vishnu Murthy',
-			img:'img/vishnu.jpg',
-			bio:"Oh Hey There! I'm Vishnu, and I'm a third year energy engineering major + eecs minor. I'm uber involved with the energy community here on campus and I love to play basketball and get outdoors!"
+            bio: "Hi! My name is Shreyas and I'm a third-year Engineering Physics major. I also tutor through CS Mentors and love teaching and learning about anything and everything (hit me up with your latest random factoid!). In my free time I love listening to all kinds of music, practicing classical guitar or tenor saxophone, and playing tennis.",
+			description: "",
+			img: "img/shreyas.jpg",
+			name: "Shreyas Parthasarathy",
+			position: "Engineering Physics Representative"
 		},
 		{
-			position:'Environmental Engineering Science Correspondent',
-			description:"",
-			name:'Jordan French',
-			img:'img/jordan-french.jpg',
-			bio: "Hello world!  I'm a third year UC Berkeley student studying environmental engineering science and minoring in energy and resources.  I work as an education co-coordinator with Cal Dining's Sustainability Team, focusing on educational events and outreach in the dining commons.  Outside of school and work, I volunteer with the Berkeley Student Food Collective, spend my nights discussing, creating, and filtering wastewater with the Berkeley Water Group and Cal Environmental Team, play half a dozen instruments, and explore the great outdoors through hiking, climbing, and scuba diving!"
+            bio: "Hello world! I'm a fourth-year UC Berkeley student studying Environmental Engineering Science and minoring in Energy & Resources. I work as an education co-coordinator with Cal Dining's Sustainability Team, focusing on educational events and outreach in the dining commons. Outside of school and work, I volunteer with the Berkeley Student Food Collective, spend my nights discussing, creating, and filtering wastewater with the Berkeley Water Group and Cal Environmental Team, play half a dozen instruments, and explore the great outdoors through hiking, climbing, and scuba diving!",
+			description: "",
+			img: "img/jordan-french.jpg",
+			name: "Jordan French",
+			position: "Environmental Engineering Science Representative"
 		},
 		{
-			position:'Outreach Chair',
-			description:"",
-			name:'Shreyas Parthasarathy',
-			img:'img/shreyas.jpg',
-			bio: "Hi! My name is Shreyas and I'm a second-year Engineering Physics major. I also tutor through CS Mentors and love teaching and learning about anything and everything (hit me up with your latest random factoid!). In my free time I love listening to all kinds of music, practicing classical guitar or tenor saxophone, and playing tennis."
+            bio: "No bio yet.",
+			description: "",
+			img: "img/nothing.jpg",
+			name: "Kevin Qi",
+			position: "Event Coordinator"
 		},
 		{
-			position:'Sports! Overlord',
-			description:"",
-			name:'Kean Amidi-Abraham',
-			img:'img/kean.jpg',
-			bio: "Greetings! i am a second year in the Energy Engineering program here in beautiful Berkeley, California. I'm an aficionado of outdoor activities: canoeing/kayaking, backpacking, running (things that end in -ing). I'm also a musician who can't get seem to find enough silence."
+            bio: "No bio yet.",
+			description: "",
+			img: "img/nothing.jpg",
+			name: "Dennis Wang",
+			position: "Event Coordinator"
 		},
 		{
-			position:'Librarian',
-			description:"",
-			name:'Pranav Pamidigantam',
-			img:'img/pranav.jpg',
-			bio: "Hey, I'm Pranav, and I'm graduating as an Engineering Physics major in 2018. I'm really interested in technology as well as theoretical physics. I also love food! Both eating and cooking. I'm probably eating or making something to eat right now."
+            bio: "Hi, my name is Drew. I'm an Engineering Physics major by day, a violinist in the University Symphony by night, a photographer sometimes, and a Tiramisu lover always.",
+			description: "",
+			img: "img/drew.jpg",
+			name: "Drew Mendinueto",
+			position: "Historian"
 		},
 		{
-			position:'Tech Chair',
-			description:"",
-			name:'Yuan Yuan',
-			img:'img/yuan.jpg',
-			bio: "Hello! I'm a third year CS and music major. Outside of those two interests, I like making things--especially bad jokes."
+            bio: "No bio yet.",
+			description: "",
+			img: "img/nothing.jpg",
+			name: "Vania Fong",
+			position: "Project Development/Social Outreach"
 		},
 		{
-			position:'Faculty Correspondent',
-			description:"",
-			name:'Dennis Feng',
-			img:'img/dennis.jpg',
-			bio: "My bio: Hey y'all! I'm Dennis, an Engineering Physics major and EECS minor. In my free time, I like hiking, playing tennis, and watching movies. I also tutor physics at the SLC."
-		},
+            bio: "No bio yet.",
+			description: "",
+			img: "img/nothing.jpg",
+			name: "Kriya Wong",
+			position: "Project Development/Social Outreach"
+		}
 	];
 })
 //--------------------------------------------------------------
