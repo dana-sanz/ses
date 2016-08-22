@@ -137,7 +137,7 @@ angular
 			position: "Project Development/Social Outreach"
 		},
 		{
-            bio: "Hi! My name is Kriya and I'm a rising sophomore in Energy Engineering with a minor in Political Economy! I'm interested in energy innovation and socially-minded engineering, and love running, acapella acai!!",
+            bio: "Hi! My name is Kriya and I'm a rising sophomore in Energy Engineering with a minor in Political Economy! I'm interested in energy innovation and socially-minded engineering, and love running and acapella acai!!",
 			description: "",
 			img: "img/kriya.jpg",
 			name: "Kriya Wong",
