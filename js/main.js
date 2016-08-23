@@ -60,8 +60,8 @@ angular
 			position: "Co-President"
 		},
 		{
-            bio: "No bio yet.",
-			description: "Howdy! I'm Sean, a third-year Energy Engineering major. On campus I'm mainly involved in energy-related organizations. Outside of school I enjoy trail running, mountain biking, photography, and climbing.",
+            bio: "Howdy! I'm Sean, a third-year Energy Engineering major. On campus I'm mainly involved in energy-related organizations. Outside of school I enjoy trail running, mountain biking, photography, and climbing.",
+			description: "",
 			img: "img/sean.jpg",
 			name: "Sean Anderson",
 			position: "Treasurer"
