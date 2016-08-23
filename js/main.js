@@ -130,7 +130,7 @@ angular
 			position: "Historian"
 		},
 		{
-            bio: "No bio yet.",
+            bio: "Hello! I am a third-year Energy Engineering major and Music minor with a budding interest in design and photography. When I'm not studying air quality in Engineers for a Sustainable World or playing violin in the symphony, I'm probably editing photos or trying to learn a new language.",
 			description: "",
 			img: "img/nothing.jpg",
 			name: "Vania Fong",
