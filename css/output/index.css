@@ -272,13 +272,15 @@ body {
 
 #guide h4 {
   margin-bottom: 1em; }
-#guide #guide-list {
-  -webkit-columns: 2 5em;
-  -moz-columns: 2 5em;
-  -ms-columns: 2 5em;
-  columns: 2 5em; }
-  #guide #guide-list #current-guide {
-    margin-bottom: 9em; }
+#guide #guide-list #current-guide {
+  display: inline-block;
+  float: left;
+  height: 100%;
+  width: 50%; }
+#guide #guide-list #past-guide {
+  display: inline-block;
+  height: 100%;
+  width: 50%; }
 
 #members h4 {
   margin-bottom: 15px; }

@@ -131,10 +131,17 @@ body {
 		margin-bottom: 1em;
 	}
 	#guide-list {
-		@include columns(2, 5em);
 		#current-guide {
-			margin-bottom: 9em;
+            display: inline-block;
+            float: left;
+            height: 100%;
+            width: 50%;
 		}
+        #past-guide {
+            display: inline-block;
+            height: 100%;
+            width: 50%;
+        }
 	}
 }
 
