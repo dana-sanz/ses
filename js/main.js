@@ -116,9 +116,9 @@ angular
 			position: "Event Coordinator"
 		},
 		{
-            bio: "No bio yet.",
+            bio: "Hi! I’m a third-year Engineering Physics major, hoping to minor in EECS as well. I am also a part of the Rubik’s Cube Club at Berkeley, and have recently been trying to pick up playing the piano again! In my free time, I’ll probably be watching some anime or hanging out with friends.",
 			description: "",
-			img: "img/nothing.jpg",
+			img: "img/dennis-wang.jpg",
 			name: "Dennis Wang",
 			position: "Event Coordinator"
 		},
