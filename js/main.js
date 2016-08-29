@@ -60,18 +60,18 @@ angular
 			position: "Co-President"
 		},
 		{
-            bio: "Howdy! I'm Sean, a third-year Energy Engineering major. On campus I'm mainly involved in energy-related organizations. Outside of school I enjoy trail running, mountain biking, photography, and climbing.",
-			description: "",
-			img: "img/sean.jpg",
-			name: "Sean Anderson",
-			position: "Treasurer"
-		},
-		{
             bio: "Hi everyone! My name is Camille and I'm a fourth-year Engineering Physics major. When I'm not debugging my CS project or trying to understand quantum mechanics, I like to play volleyball and bake (especially French desserts)!",
 			description: "",
 			img: "img/camille.jpg",
 			name: "Camille Biscarrat",
 			position: "Treasurer"
+		},
+		{
+            bio: "Howdy! I'm Sean, a third-year Energy Engineering major. On campus I'm mainly involved in energy-related organizations. Outside of school I enjoy trail running, mountain biking, photography, and climbing.",
+			description: "",
+			img: "img/sean.jpg",
+			name: "Sean Anderson",
+			position: "Junior Treasurer"
 		},
 		{
             bio: "Greetings! I am a third-year in the Energy Engineering program here in beautiful Berkeley, California. I'm an aficionado of outdoor activities: canoeing/kayaking, backpacking, running (things that end in -ing). I'm also a musician who can't seem to find enough silence.",
