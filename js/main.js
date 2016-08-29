@@ -64,7 +64,7 @@ angular
 			description: "",
 			img: "img/camille.jpg",
 			name: "Camille Biscarrat",
-			position: "Treasurer"
+			position: "Super Treasurer"
 		},
 		{
             bio: "Howdy! I'm Sean, a third-year Energy Engineering major. On campus I'm mainly involved in energy-related organizations. Outside of school I enjoy trail running, mountain biking, photography, and climbing.",
