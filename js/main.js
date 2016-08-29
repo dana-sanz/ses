@@ -109,9 +109,9 @@ angular
 			position: "Environmental Engineering Science Representative"
 		},
 		{
-            bio: "No bio yet.",
+            bio: "Hey all! I am a second-year Engineering Physics major, possibly getting a minor in EECS. I like to spend my free time playing the bassoon, dancing in AFX, and spending time with my brothers in Triangle Fraternity!",
 			description: "",
-			img: "img/nothing.jpg",
+			img: "img/kevin.jpg",
 			name: "Kevin Qi",
 			position: "Event Coordinator"
 		},
