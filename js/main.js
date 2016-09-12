@@ -60,7 +60,7 @@ angular
 			position: "Co-President"
 		},
 		{
-            bio: "Hi everyone! My name is Camille and I'm a fourth-year Engineering Physics major. When I'm not debugging my CS project or trying to understand quantum mechanics, I like to play volleyball and bake (especially French desserts)!",
+            bio: "Hi everyone! My name is Camille and I'm a fourth-year Engineering Physics and EECS major. When I'm not debugging my CS project or trying to understand quantum mechanics, I like to play volleyball and bake (especially French desserts)!",
 			description: "",
 			img: "img/camille.jpg",
 			name: "Camille Biscarrat",
@@ -142,7 +142,14 @@ angular
 			img: "img/kriya.jpg",
 			name: "Kriya Wong",
 			position: "Project Development/Social Outreach"
-		}
+		},
+        {
+            bio: "Hi, I’m Rodger. I’m a third-year Engineering Physics major pursuing a minor in Computer Science. In my free time, I like playing piano and violin. I also enjoy lifting, badminton, and gaming. My favorite foods include anything with sauce and my Rubik’s Cube record is 14.76 seconds.",
+            description: "",
+            img: "img/rodger.png",
+            name: "Rodger Pang",
+            position: "FAQ Project Lead"
+        }
 	];
 })
 //--------------------------------------------------------------
