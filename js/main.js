@@ -136,13 +136,6 @@ angular
 			name: "Vania Fong",
 			position: "Project Development/Social Outreach"
 		},
-		{
-            bio: "Hi! My name is Kriya and I'm a rising sophomore in Energy Engineering with a minor in Political Economy! I'm interested in energy innovation and socially-minded engineering, and love running and acapella acai!!",
-			description: "",
-			img: "img/kriya.jpg",
-			name: "Kriya Wong",
-			position: "Project Development/Social Outreach"
-		},
         {
             bio: "My name is Anthony Vogliano, and I'm a first-year Engineering Physics major with an anticipated EECS minor. I'm your run-of-the-mill physics geek, wannabe racquetball pro, and flannel enthusiast, and though I'm new to Cal, I can't wait to get involved in the SES community!",
             description: "",
@@ -150,6 +143,13 @@ angular
             name: "Anthony Vogliano",
             position: "Project Development/Social Outreach"
         },
+		{
+            bio: "Hi! My name is Kriya and I'm a rising sophomore in Energy Engineering with a minor in Political Economy! I'm interested in energy innovation and socially-minded engineering, and love running and acapella acai!!",
+			description: "",
+			img: "img/kriya.jpg",
+			name: "Kriya Wong",
+			position: "Project Development/Social Outreach"
+		},
         {
             bio: "Hi, I’m Rodger. I’m a third-year Engineering Physics major pursuing a minor in Computer Science. In my free time, I like playing piano and violin. I also enjoy lifting, badminton, and gaming. My favorite foods include anything with sauce and my Rubik’s Cube record is 14.76 seconds.",
             description: "",
