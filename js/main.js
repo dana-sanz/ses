@@ -144,6 +144,13 @@ angular
 			position: "Project Development/Social Outreach"
 		},
         {
+            bio: "My name is Anthony Vogliano, and I'm a first-year Engineering Physics major with an anticipated EECS minor. I'm your run-of-the-mill physics geek, wannabe racquetball pro, and flannel enthusiast, and though I'm new to Cal, I can't wait to get involved in the SES community!",
+            description: "",
+            img: "img/nothing.jpg",
+            name: "Anthony Vogliano",
+            position: "Project Development/Social Outreach"
+        },
+        {
             bio: "Hi, I’m Rodger. I’m a third-year Engineering Physics major pursuing a minor in Computer Science. In my free time, I like playing piano and violin. I also enjoy lifting, badminton, and gaming. My favorite foods include anything with sauce and my Rubik’s Cube record is 14.76 seconds.",
             description: "",
             img: "img/rodger.png",
