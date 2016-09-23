@@ -139,7 +139,7 @@ angular
         {
             bio: "My name is Anthony Vogliano, and I'm a first-year Engineering Physics major with an anticipated EECS minor. I'm your run-of-the-mill physics geek, wannabe racquetball pro, and flannel enthusiast, and though I'm new to Cal, I can't wait to get involved in the SES community!",
             description: "",
-            img: "img/nothing.jpg",
+            img: "img/anthony.jpg",
             name: "Anthony Vogliano",
             position: "Project Development/Social Outreach"
         },
