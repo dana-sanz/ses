@@ -137,6 +137,13 @@ angular
 			position: "Project Development/Social Outreach"
 		},
         {
+            bio: "Hi there! I'm Andre, and I was born and raised in San Jose, CA. As a kid, I fell in love with engineering and science through activities like robotics. I’m now majoring in Engineering Physics at Cal. Some other things I like to do in my free time are building solar cars, rock climbing, backpacking, cycling, scuba diving, photography, and cooking.",
+            description: "",
+            img: "img/andre.jpg",
+            name: "Andre He",
+            position: "Project Development/Social Outreach"
+        },
+        {
             bio: "My name is Anthony Vogliano, and I'm a first-year Engineering Physics major with an anticipated EECS minor. I'm your run-of-the-mill physics geek, wannabe racquetball pro, and flannel enthusiast, and though I'm new to Cal, I can't wait to get involved in the SES community!",
             description: "",
             img: "img/anthony.jpg",
