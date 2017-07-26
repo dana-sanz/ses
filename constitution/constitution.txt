@@ -1,8 +1,10 @@
 Society of Engineering Sciences Constitution
 
 Student Organization Name: Society of Engineering Sciences
-Date Prepared: May 17, 2016
-Date Amended: May 17, 2016
+Date Prepared: July 25, 2017
+Date Amended: July 25, 2017
+Date Approved (LEAD Center staff):
+Approved by (LEAD Center staff):
 
 Article I — Name
 The Society shall be known as the Society of Engineering Sciences. The Society is also to be known as SES.
@@ -44,4 +46,3 @@ Article VII — Dissolution
 A simple majority vote is required to dissolve the Society.
 
 If the organization is ASUC or GA Sponsored, all unspent ASUC funds shall return to the ASUC; all Graduate Assembly funds shall return to the Graduate Assembly. If the organization is defunct for five (5) or more years, any privately owned funds (including any funds left in miscellaneous accounts) shall be donated to the ASUC.
-

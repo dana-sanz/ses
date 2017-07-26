@@ -1,7 +1,7 @@
 # SES Website
 Hello SES member!
 
-If you're reading this, I assume you want to contribute to our  website. Firstly, thank you so much, and great to have you onboard! We'll have you up and running in no time :)
+If you're reading this, I assume you want to contribute to our website. Firstly, thank you so much, and great to have you onboard! We'll have you up and running in no time :)
 
 ### The Workflow
 Github (this page) is the git server, and remains the single source of truth. The website is hosted on the Berkeley domain, at `ses@ssh.ocf.berkeley.edu`. However, please DO NOT edit directly on the server (unless you're really confident you know what you're doing). Any change you make to that folder will go live immediately. Therefore, I suggest you work locally:
