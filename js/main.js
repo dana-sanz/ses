@@ -46,53 +46,46 @@ angular
 .controller('membersctrl', function($scope) {
 	$scope.officers = [
 		{
-            bio: "Hello, I'm Sinho, a well-caffeinated third-year Engineering Mathematics & Statistics major. I love to learn, whether it's pure mathematics and quantum mechanics or software engineering and machine learning. I also work as a TA for the EECS Department. In my free time, you can find me watching anime or hanging out with my housemates.",
+            bio: "Hello, I'm Sinho, a well-caffeinated fourth-year Engineering Mathematics & Statistics major. I love to learn, whether it's pure mathematics, statistics, or computer science, but I am particularly interested in probability theory. I also work as a TA for the EECS Department. In my free time, you can find me watching anime or hanging out with my housemates.",
 			description: "",
 			img: "img/sinho.jpg",
 			name: "Sinho Chewi",
-			position: "Co-President"
+			position: "President"
 		},
 		{
-            bio: "Oh Hey There! I'm Vishnu, and I'm a fourth-year Energy Engineering major + EECS minor. I'm uber involved with the energy community here on campus and I love to play basketball and get outdoors!",
+            bio: "",
 			description: "",
-			img: "img/vishnu.jpg",
-			name: "Vishnu Murthy",
-			position: "Co-President"
+			img: "",
+			name: "Eric Jankowski",
+			position: "Vice-President"
 		},
 		{
             bio: "Hi everyone! My name is Camille and I'm a fourth-year Engineering Physics and EECS major. When I'm not debugging my CS project or trying to understand quantum mechanics, I like to play volleyball and bake (especially French desserts)!",
 			description: "",
 			img: "img/camille.jpg",
 			name: "Camille Biscarrat",
-			position: "Super Treasurer"
+			position: "Treasurer"
 		},
-		{
-            bio: "Howdy! I'm Sean, a third-year Energy Engineering major. On campus I'm mainly involved in energy-related organizations. Outside of school I enjoy trail running, mountain biking, photography, and climbing.",
-			description: "",
-			img: "img/sean.jpg",
-			name: "Sean Anderson",
-			position: "Junior Treasurer"
-		},
-		{
-            bio: "Greetings! I am a third-year in the Energy Engineering program here in beautiful Berkeley, California. I'm an aficionado of outdoor activities: canoeing/kayaking, backpacking, running (things that end in -ing). I'm also a musician who can't seem to find enough silence.",
-			description: "",
-			img: "img/kean.jpg",
-			name: "Kean Amidi-Abraham",
-			position: "Energy Engineering Representative"
-		},
+        {
+            bio: "My name is Anthony Vogliano, and I'm a first-year Engineering Physics major with an anticipated EECS minor. I'm your run-of-the-mill physics geek, wannabe racquetball pro, and flannel enthusiast, and though I'm new to Cal, I can't wait to get involved in the SES community!",
+            description: "",
+            img: "img/anthony.jpg",
+            name: "Anthony Vogliano",
+            position: "Treasurer"
+        },
+        {
+            bio: "",
+            description: "",
+            img: "",
+            name: "Jash Vora",
+            position: "Energy Engineering Representative"
+        },
 		{
             bio: "Hi! My name is Joy, and I am a third-year studying Engineering Mathematics & Statistics! I'm a campus tour guide, officer in the Society of Women Engineers, and Berkeley dog stalker on the side! You can usually find me either walking backwards or hugging the dogs on campus while contemplating the math class I just took. :-)",
 			description: "",
 			img: "img/joy.jpg",
 			name: "Joy Gu",
 			position: "Engineering Mathematics & Statistics Representative"
-		},
-		{
-            bio: "Hey y'all! I'm Dennis, an Engineering Physics major and EECS minor. In my free time, I like hiking, playing tennis, and watching movies. I also tutor physics at the SLC.",
-			description: "",
-			img: "img/dennis.jpg",
-			name: "Dennis Feng",
-			position: "Engineering Physics Representative"
 		},
 		{
             bio: "Hi! My name is Shreyas and I'm a third-year Engineering Physics major. I also tutor through CS Mentors and love teaching and learning about anything and everything (hit me up with your latest random factoid!). In my free time I love listening to all kinds of music, practicing classical guitar or tenor saxophone, and playing tennis.",
@@ -102,68 +95,12 @@ angular
 			position: "Engineering Physics Representative"
 		},
 		{
-            bio: "Hello world! I'm a fourth-year UC Berkeley student studying Environmental Engineering Science and minoring in Energy & Resources. I work as an education co-coordinator with Cal Dining's Sustainability Team, focusing on educational events and outreach in the dining commons. Outside of school and work, I volunteer with the Berkeley Student Food Collective, spend my nights discussing, creating, and filtering wastewater with the Berkeley Water Group and Cal Environmental Team, play half a dozen instruments, and explore the great outdoors through hiking, climbing, and scuba diving!",
+            bio: "",
 			description: "",
-			img: "img/jordan-french.jpg",
-			name: "Jordan French",
+			img: "",
+			name: "Erina Szeto",
 			position: "Environmental Engineering Science Representative"
-		},
-		{
-            bio: "Hey all! I am a second-year Engineering Physics major, possibly getting a minor in EECS. I like to spend my free time playing the bassoon, dancing in AFX, and spending time with my brothers in Triangle Fraternity!",
-			description: "",
-			img: "img/kevin.jpg",
-			name: "Kevin Qi",
-			position: "Event Coordinator"
-		},
-		{
-            bio: "Hi! I’m a third-year Engineering Physics major, hoping to minor in EECS as well. I am also a part of the Rubik’s Cube Club at Berkeley, and have recently been trying to pick up playing the piano again! In my free time, I’ll probably be watching some anime or hanging out with friends.",
-			description: "",
-			img: "img/dennis-wang.jpg",
-			name: "Dennis Wang",
-			position: "Event Coordinator"
-		},
-		{
-            bio: "Hi, my name is Drew. I'm an Engineering Physics major by day, a violinist in the University Symphony by night, a photographer sometimes, and a Tiramisu lover always.",
-			description: "",
-			img: "img/drew.jpg",
-			name: "Drew Mendinueto",
-			position: "Historian"
-		},
-		{
-            bio: "Hello! I am a third-year Energy Engineering major and Music minor with a budding interest in design and photography. When I'm not studying air quality in Engineers for a Sustainable World or playing violin in the symphony, I'm probably editing photos or trying to learn a new language.",
-			description: "",
-			img: "img/vania.jpg",
-			name: "Vania Fong",
-			position: "Project Development/Social Outreach"
-		},
-        {
-            bio: "Hi there! I'm Andre, and I was born and raised in San Jose, CA. As a kid, I fell in love with engineering and science through activities like robotics. I’m now majoring in Engineering Physics at Cal. Some other things I like to do in my free time are building solar cars, rock climbing, backpacking, cycling, scuba diving, photography, and cooking.",
-            description: "",
-            img: "img/andre.jpg",
-            name: "Andre He",
-            position: "Project Development/Social Outreach"
-        },
-        {
-            bio: "My name is Anthony Vogliano, and I'm a first-year Engineering Physics major with an anticipated EECS minor. I'm your run-of-the-mill physics geek, wannabe racquetball pro, and flannel enthusiast, and though I'm new to Cal, I can't wait to get involved in the SES community!",
-            description: "",
-            img: "img/anthony.jpg",
-            name: "Anthony Vogliano",
-            position: "Project Development/Social Outreach"
-        },
-		{
-            bio: "Hi! My name is Kriya and I'm a rising sophomore in Energy Engineering with a minor in Political Economy! I'm interested in energy innovation and socially-minded engineering, and love running and acapella acai!!",
-			description: "",
-			img: "img/kriya.jpg",
-			name: "Kriya Wong",
-			position: "Project Development/Social Outreach"
-		},
-        {
-            bio: "Hi, I’m Rodger. I’m a third-year Engineering Physics major pursuing a minor in Computer Science. In my free time, I like playing piano and violin. I also enjoy lifting, badminton, and gaming. My favorite foods include anything with sauce and my Rubik’s Cube record is 14.76 seconds.",
-            description: "",
-            img: "img/rodger.png",
-            name: "Rodger Pang",
-            position: "FAQ Project Lead"
-        }
+		}
 	];
 })
 //--------------------------------------------------------------
