@@ -53,9 +53,9 @@ angular
 			position: "President"
 		},
 		{
-            bio: "",
+            bio: "Hey all, my name is Eric and I'm a second-year Engineering Mathematics and Statistics major with an intended minor in Computer Science. When I'm not forgetting the minus sign or the close parenthesis, you can find me playing soccer with my IM team, playing chess with my roommates, or rewatching Avatar: The Last Airbender for the 200th time.",
 			description: "",
-			img: "",
+			img: "img/eric.jpg",
 			name: "Eric Jankowski",
 			position: "Vice-President"
 		},
@@ -67,28 +67,28 @@ angular
 			position: "Treasurer"
 		},
         {
-            bio: "My name is Anthony Vogliano, and I'm a first-year Engineering Physics major with an anticipated EECS minor. I'm your run-of-the-mill physics geek, wannabe racquetball pro, and flannel enthusiast, and though I'm new to Cal, I can't wait to get involved in the SES community!",
+            bio: "My name is Anthony Vogliano, and I'm a second-year Engineering Physics major with an anticipated EECS minor. I'm your run-of-the-mill physics geek, wannabe racquetball pro, and flannel enthusiast, and though I'm new to Cal, I can't wait to get involved in the SES community!",
             description: "",
             img: "img/anthony.jpg",
             name: "Anthony Vogliano",
             position: "Treasurer"
         },
         {
-            bio: "",
+            bio: "Hey there! I'm Jash, a sophomore from Mumbai studying Energy Engineering. I'm a member of the UC Berkeley Solar Vehicle Team (CalSol), and I love soccer. I'm an avid Arsenal FC fan, and just can't get enough of Coldplay! I also enjoy reading non-fiction novels, watching TV shows (Rick and Morty is the best show ever created by our species), and scuba diving.",
             description: "",
-            img: "",
+            img: "img/jash.jpg",
             name: "Jash Vora",
             position: "Energy Engineering Representative"
         },
 		{
-            bio: "Hi! My name is Joy, and I am a third-year studying Engineering Mathematics & Statistics! I'm a campus tour guide, officer in the Society of Women Engineers, and Berkeley dog stalker on the side! You can usually find me either walking backwards or hugging the dogs on campus while contemplating the math class I just took. :-)",
+            bio: "Hi! My name is Joy, and I am a fourth-year studying Engineering Mathematics & Statistics! I'm a campus tour guide, officer in the Society of Women Engineers, and Berkeley dog stalker on the side! You can usually find me either walking backwards or hugging the dogs on campus while contemplating the math class I just took. :-)",
 			description: "",
 			img: "img/joy.jpg",
 			name: "Joy Gu",
 			position: "Engineering Mathematics & Statistics Representative"
 		},
 		{
-            bio: "Hi! My name is Shreyas and I'm a third-year Engineering Physics major. I also tutor through CS Mentors and love teaching and learning about anything and everything (hit me up with your latest random factoid!). In my free time I love listening to all kinds of music, practicing classical guitar or tenor saxophone, and playing tennis.",
+            bio: "Hi! My name is Shreyas and I'm a fourth-year Engineering Physics and EECS major. I'm also a TA for the CS department and love teaching and learning about anything and everything (hit me up with your latest random factoid!). In my free time I love listening to all kinds of music, practicing classical guitar or tenor saxophone, and playing tennis.",
 			description: "",
 			img: "img/shreyas.jpg",
 			name: "Shreyas Parthasarathy",
