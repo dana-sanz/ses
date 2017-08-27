@@ -95,9 +95,9 @@ angular
 			position: "Engineering Physics Representative"
 		},
 		{
-            bio: "",
+            bio: "Hey everyone! I'm Erina, a third-year Environmental Engineering Science major. You might find me running simulations for an Engineers Without Borders project or doing research, but more likely you'll just see me doing an impromptu song and dance in a random place on campus. I'm game for anything related to music, food, books, and baseball.",
 			description: "",
-			img: "",
+			img: "img/erina.jpeg",
 			name: "Erina Szeto",
 			position: "Environmental Engineering Science Representative"
 		}
