@@ -46,7 +46,7 @@ angular
 .controller('membersctrl', function($scope) {
 	$scope.officers = [
 		{
-            bio: "My name is Anthony Vogliano, and I'm a fourth-year Engineering Physics major and EECS minor. I'm your run-of-the-mill physics geek, wannabe racquetball pro, and flannel enthusiast, and I'm excited to contribute to the SES community!",
+            bio: "My name is Anthony Vogliano, and I'm a fourth-year Engineering Physics major and EECS minor. I'm your run-of-the-mill physics geek, wannabe racquetball pro, and flannel enthusiast, and I'm excited to contribute to the SES community!  I'm currently doing research with Dr. Ana Arias, investigating new materials to use in flexible electronics.  I love helping incoming students get their bearings, so if you have questions don't hesitate to send me a message!",
 			description: "",
 			img: "img/anthony.jpg",
 			name: "Anthony Vogliano",
