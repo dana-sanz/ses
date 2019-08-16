@@ -53,7 +53,7 @@ angular
 			position: "President"
 		},
 		{
-            bio: "T.G. is currently a Junior at UC Berkeley majoring in Energy Engineering. She is the Vice President of Society of Engineering Sciences (SES) as well as the co-President of Engineers for a Sustainable World (ESW). She runs a project within ESW, called Man Made Floating Wetlands, which aims to remove the harmful algae on Lake Temescal in Oakland. She is part of another project through ESW called Rainwater Harvesting, that has built a rainwater harvesting system on the Hearst Field Annex in order to save drinking water. She loves reading and talking about energy related topics, and is very social so don't be afraid to email or reach out to her!",
+            bio: "T.G. is currently a Senior at UC Berkeley majoring in Energy Engineering. She is the Vice President of Society of Engineering Sciences (SES) as well as the co-President of Engineers for a Sustainable World (ESW). She runs a project within ESW, called Man Made Floating Wetlands, which aims to remove the harmful algae on Lake Temescal in Oakland. She is part of another project through ESW called Rainwater Harvesting, that has built a rainwater harvesting system on the Hearst Field Annex in order to save drinking water. She loves reading and talking about energy related topics, and is very social so don't be afraid to email or reach out to her!",
 			description: "",
 			img: "img/tg.jpg",
 			name: "T.G. Roberts",
@@ -81,7 +81,7 @@ angular
             position: "Energy Engineering Representative"
         },
 		{
-            bio: "Hey all, my name is Eric and I'm a third-year Engineering Mathematics and Statistics major with a minor in Computer Science. When I'm not forgetting the minus sign or the close parenthesis, you can find me playing soccer with my IM team, playing chess with my roommates, or rewatching Avatar: The Last Airbender for the 200th time.",
+            bio: "Hey all, my name is Eric and I'm a fourth-year Engineering Mathematics and Statistics major with a minor in Computer Science. When I'm not forgetting the minus sign or the close parenthesis, you can find me playing soccer with my IM team, playing chess with my roommates, or rewatching Avatar: The Last Airbender for the 200th time.",
 			description: "",
 			img: "img/eric.jpg",
 			name: "Eric Jankowski",
